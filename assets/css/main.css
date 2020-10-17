@@ -133,6 +133,10 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+	.preamble {
+		font-size: 1.5em;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
