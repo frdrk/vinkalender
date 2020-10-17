@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #08b108;
+		background-color: #c94b4b;
 		/*background-color: #935d8c;*/
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #c94b4b 15%, #4b134f 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #c94b4b 15%, #4b134f 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #c94b4b 15%, #4b134f 85%);
 		/*background-image: url("images/overlay.png"), linear-gradient(45deg, #ad5389 15%, #3c1053 85%);*/
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #c94b4b 15%, #4b134f 85%);
 	}
@@ -122,14 +122,14 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #08b108;
+		background-color: #c94b4b;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.65;
 	}
 
@@ -2867,16 +2867,16 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #ffffff;
+			color: #333;
 			text-align: center;
 		}
 
 			.statistics li.style1 {
-				background-color: #333;
+				background-color: #ededed;
 			}
 
 			.statistics li.style2 {
-				background-color: #666;
+				background-color: #dedede;
 			}
 
 			.statistics li.style3 {
@@ -3206,7 +3206,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
+		width: 68em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3752,15 +3752,15 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
+		width: 68em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 768px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: 100%
 			}
 
 		}
